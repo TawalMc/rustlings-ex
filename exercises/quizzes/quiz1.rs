@@ -10,7 +10,12 @@
 
 // TODO: Write a function that calculates the price of an order of apples given
 // the quantity bought.
-// fn calculate_price_of_apples(???) -> ??? { ??? }
+fn calculate_price_of_apples(nb_apples: u64) -> u64 {
+    if nb_apples > 40 {
+        return nb_apples;
+    }
+    return nb_apples * 2;
+}
 
 fn main() {
     // You can optionally experiment here.
